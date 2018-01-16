@@ -1,0 +1,16 @@
+
+div.enlaces{
+	background-color: #D3D3D3;
+	font-size: 1.2em;
+	width:200px;
+	padding:0.4em;
+}
+a.der{
+	text-align:rigth;
+	text-decoration:none;
+	float:right;
+}
+
+a.izq{
+	text-decoration:none;
+}

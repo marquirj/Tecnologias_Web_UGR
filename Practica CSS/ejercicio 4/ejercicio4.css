@@ -1,0 +1,20 @@
+fieldset.bordeado {
+	border-color:blue;
+	background-color:Antiquewhite;
+	height:170px;
+	width:350px;
+	
+}
+td.borde { 
+	border: 2px solid blue; 
+	background-color:white;
+}
+td.columnaCentral{
+	text-align:right;
+}
+div.der{
+	float:left;
+}
+div.izq{
+	float:left;
+}

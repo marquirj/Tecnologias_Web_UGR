@@ -1,0 +1,122 @@
+body{
+	width:700px;/* Un ancho inferior a la imagen para dejar margen */
+	background-position:center;
+	margin:0 auto; /* Se centra el cuerpo de la página */
+	padding-top:1em;/* Para dejar un margen superior */
+	
+}
+ /* Marco superior */
+#marcosup{
+	
+	background-image:url("img/superior.jpg"); /* Imagen de fondo proporcionada en la práctica */
+	height:26px;/* Altura de la imagen */
+	width:730px; /* Ancho de la imagen */
+	margin-bottom:0; /* Para que no haya separación entre el borde superior y los laterales */
+}
+/* Border laterales */
+
+#contenido{
+	margin-top:0; /* Para que no haya separación entre los bordes laterales y el borde superior */
+	background-image: url("img/medio.jpg"); /* Imagen proporcionada en la práctica */
+	width:730px; /* Medidas de la imgagen */
+	height:700px; /* Medidas de la imgagen */
+}
+/* Cabecera  */
+header{
+	background-image: url("img/encabezado.jpg"); /*Imagen de cabecera proporcinada en la práctica */
+	height:100px; 
+	width:655px;
+	margin-left:30px; /* Separación lateral izquierda de la imagen de borde */
+	padding-left:15px; /* Separación dentro de la imagen */
+	
+}
+/* Enlaces, para que no tengan subrayado */
+header a{
+	text-decoration:none;
+	color:white;
+	
+}
+header h1{
+	padding-top:20px;
+	margin-bottom:0;
+}
+header h2{
+	margin-top:0;
+	color:white;
+	font-size:large;
+}
+
+/* Barra incio */
+div.localizacion {
+	
+	width:670px;
+	padding-top:0em;
+	background-color:#F8F8FF;
+	margin-left:30px;
+}
+/* Para que los enlaces no tenga subrayado */
+div.localizacion a {
+	text-decoration:none;
+	color:#1E90FF;
+}
+
+/* Cuadro izquierdo */
+section{
+		float:left;
+		width:400px;
+		padding-left:1em;
+		text-align:center;
+		margin:1em;
+		margin-left:30px;
+		
+}
+section h2{
+	color:#1E90FF;
+	text-align:left;
+}
+section.datos p{
+	text-align:justify;
+	font-size:large;
+}
+  /* Cuadro derecho menu de navegación */
+nav{
+	float:left;
+	background-color:#F8F8FF;
+	font-size: large;
+	width:190px;
+	margin-top:1em;
+	margin-left:20px;
+}
+nav h2{
+	color:#1E90FF;
+}
+
+/* Decoracion lista */
+nav ul li{
+	list-style-type:square; /* Incluye un cuadrado a la izquierda de una lista */
+}
+nav ul li a{
+	text-decoration:none;
+	color:#1E90FF;
+}
+/* Coger el foco */
+nav ul li a:hover{ /* Hover indica que el ratón está justo encima */
+	text-decoration:underline;
+}
+/* Marco inferior*/
+#marcoinf{
+	clear:both;
+	background-image:url("img/inferior.jpg");
+	width:730px;
+	height:20px;
+}
+/* Pie de página  */
+footer{
+	clear:both;/* Limpia los efectos anteriores */
+	text-align:center;
+	color:grey;
+}
+footer a{
+	text-decoration:none;
+	color:#1E90FF;
+}
