@@ -1,0 +1,15 @@
+<?php
+	require('funcionesPHP/cabecera.php');
+	require('funcionesPHP/maquetacionHTML.php');
+	HTMLinicio("Documentacion");
+	cabecera();
+	logueo();
+	nav(4);
+	cierreNav();
+	contenido();
+	docu();
+	cierreContenido();
+	cierraEstructura();
+	pie();
+	HTMLfin();
+?>
