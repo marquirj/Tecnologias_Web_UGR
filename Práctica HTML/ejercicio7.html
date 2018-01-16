@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio 7</title>
+</head>
+<body>
+	<form name="revista" method="GET" action="procesar.php">
+		<fieldset name="personal">
+			<legend> Información personal:</legend>
+				<label>Nombre: </label>
+				<input type="text" name="nombre" value="nombre.."></br>
+				<label>Apellidos: </label>
+				<input type="text" name="apellidos" value="apellidos.."></br>
+				<label>Dirección postal: </label>
+				<input type="text" name="dir" value="direccion.."></br>
+				<label>Fecha nacimiento: </label>
+				<input type="date" name="nacimiento" ></br>
+				<label>Telefono: </label>
+				<input type="tel" name="numero">	</br>
+				<label>Email: </label>
+				<input type="email" name="email" value="email.."></br>
+				<label>Numero CC: </label>
+				<input type="text" name="cuenta" ></br>
+		</fieldset>
+		<fieldset name="suscripcion">
+			<legend>Información sobre la suscripción:</legend>
+				<h3>Revista seleccionada: </h3>
+					<input type="radio" name="revistaElegida" value="Sabelotodo">Sabelotodo</br>
+					<input type="radio" name="revistaElegida" value="Sólo sé que no sé nada">Sólo sé que no sé nada</br>
+					<input type="radio" name="revistaElegida" value="Muy interesado">Muy interesado</br>
+					<input type="radio" name="revistaElegida" value="Ciencia con sabor">Ciencia con sabor</br>
+				<h3>Suscripción:</h3>
+					<input type="radio" name="tiempo" value="anual">Anual</br>
+					<input type="radio" name="tiempo" value="bianual" checked="true">Bianual</br>
+				<h3>Modo de pago:</h3>
+					<input type="radio" name="pago" value="paypal">PAYPAL</br>
+					<input type="radio" name="pago" value="VISA" checked="true">VISA</br>
+					<input type="radio" name="pago" value="reembolso">Reembolso</br>
+					
+		</fieldset>
+		<fieldset name="suscripcion">
+			<legend>Otra información:</legend>
+				<h3>Otros temas de interés: </h3>
+					<input type="checkbox" name="temas[]" value="divulgacion">Divulgación</br>
+					<input type="checkbox" name="temas[]" value="gastronomia">Gastronomía</br>
+					<input type="checkbox" name="temas[]" value="motor">Motor</br>
+					<input type="checkbox" name="temas[]" value="viajes">Viajes</br>
+				<h3>Recibir Publicidad:</h3>
+					<input type="radio" name="publi" value="si" checked="true">Si</br>
+					<input type="radio" name="publi" value="no">No</br>
+		</fieldset>
+		<input type="submit" value="Enviar">
+	</form>
+	
+
+</body>
+</html>
